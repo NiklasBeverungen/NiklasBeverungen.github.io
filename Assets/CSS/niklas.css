@@ -20,7 +20,7 @@ a,a:visited{
     height: 0;
 }
 #raincoat {
-	width:980px;
+	width:960px;
 	background-color:#898989;
 	margin: 0 auto;
 }
@@ -49,7 +49,6 @@ a,a:visited{
 }
 .sidebar{
 	width: 215px;
-	height:300px;
 	float:left;
 }
 .sidebar h3{
@@ -62,7 +61,6 @@ a,a:visited{
 	text-align: right;
 }
 .content{
-	height:1024px;
 	width:700px;
 	float:right;
 }
@@ -71,4 +69,8 @@ a,a:visited{
 	font-weight: normal;
 	margin-bottom: 15px;
 	text-transform: uppercase;
+}
+.feet{
+	height: 56px;
+	border-top: 1px solid #ddd;
 }
