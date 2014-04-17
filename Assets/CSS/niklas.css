@@ -1,27 +1,26 @@
 body{
 	color: #000;
- 	font-family: Sans-Serif;	
+ 	font-family: Sans-Serif;
 }
 * {
 	margin: 0;
 	padding:0;
 	outline: 0;
 }
-a,a:visited{
+a, a:visited, a:active{
 	text-decoration: none;
 	color: #000
 }
 .clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 #raincoat {
 	width:960px;
-	background-color:#898989;
 	margin: 0 auto;
 }
 .head{
@@ -49,6 +48,7 @@ a,a:visited{
 }
 .sidebar{
 	width: 215px;
+	padding-bottom: 20px;	
 	float:left;
 }
 .sidebar h3{
@@ -69,6 +69,32 @@ a,a:visited{
 	font-weight: normal;
 	margin-bottom: 15px;
 	text-transform: uppercase;
+}
+.landingpage-hero{
+	width: 680px;
+	height: 394px;
+	background-color: #00ffff
+}
+.shirt{
+	padding-bottom: 20px;
+}
+.belt{
+	height:5px;
+	background-color:green; 
+}
+.trousers{
+	padding:20px;
+}
+.preview-image{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	height:200px;
+	width:293px;
+	background-color: blue;
+	float:left;
+}
+.preview-image:nth-child(odd){
+	background-color: yellow;
 }
 .feet{
 	height: 56px;
