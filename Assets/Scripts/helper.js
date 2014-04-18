@@ -1,7 +1,7 @@
 function adjustPreviewImagePaddings(){
 
 	/*collect all imageContainers*/
-	var previewImages = $('.preview-image');
+	var previewImages = $('.trousers ul li');
 
 	/*look if the last row is full*/
 	var rest = function(){

@@ -85,16 +85,26 @@ a, a:visited, a:active {
 .trousers {
 	padding:20px;
 }
-.preview-image {
+.trousers ul{
+	list-style-type: none;
+}
+.trousers ul li {
 	margin-left: 20px;
 	margin-bottom: 20px;
-	height:200px;
-	width:293px;
-	background-color: blue;
-	float:left;
+	border: 1px solid #ddd;
+	height: 198px;
+	width: 291px;
+	position: relative;
+	float: left;
 }
-.preview-image:nth-child(odd) {
-	background-color: yellow;
+.trousers ul li img{
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left:0;
+	height: 100%;
+	position: absolute;
 }
 .feet {
 	height: 56px;
