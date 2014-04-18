@@ -1,4 +1,4 @@
-body{
+body {
 	color: #000;
  	font-family: Sans-Serif;
 }
@@ -7,7 +7,7 @@ body{
 	padding:0;
 	outline: 0;
 }
-a, a:visited, a:active{
+a, a:visited, a:active {
 	text-decoration: none;
 	color: #000
 }
@@ -23,69 +23,69 @@ a, a:visited, a:active{
 	width:960px;
 	margin: 0 auto;
 }
-.head{
+.head {
 	margin-left: 231px;
 	width:730px;
 	height:50px;
 	margin-bottom: 80px;
 }
-.head ul{
+.head ul {
 	display: table;
 	border-collapse: collapse;
 	height:100%;
 	width: 100%;
 	list-style-type: none;
 }
-.head ul li{
+.head ul li {
 	display: table-cell;
 	vertical-align: middle;
 	width:20%;
 	height:100%;
 	text-align: center;
 }
-.head ul li a{
+.head ul li a {
 	padding:16px 0;
 }
-.sidebar{
+.sidebar {
 	width: 215px;
 	padding-bottom: 20px;	
 	float:left;
 }
-.sidebar h3{
+.sidebar h3 {
 	text-align: right;
 	font-size: 16px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
 }
-.sidebar p{
+.sidebar p {
 	text-align: right;
 }
-.content{
+.content {
 	width:700px;
 	float:right;
 }
-.content .primary-headline{
+.content .primary-headline {
 	font-size: 20px;
 	font-weight: normal;
 	margin-bottom: 15px;
 	text-transform: uppercase;
 }
-.landingpage-hero{
+.landingpage-hero {
 	width: 680px;
 	height: 394px;
 	background-color: #00ffff
 }
-.shirt{
+.shirt {
 	padding-bottom: 20px;
 }
-.belt{
+.belt {
 	height:5px;
 	background-color:green; 
 }
-.trousers{
+.trousers {
 	padding:20px;
 }
-.preview-image{
+.preview-image {
 	margin-left: 20px;
 	margin-bottom: 20px;
 	height:200px;
@@ -93,10 +93,10 @@ a, a:visited, a:active{
 	background-color: blue;
 	float:left;
 }
-.preview-image:nth-child(odd){
+.preview-image:nth-child(odd) {
 	background-color: yellow;
 }
-.feet{
+.feet {
 	height: 56px;
 	border-top: 1px solid #ddd;
 }
