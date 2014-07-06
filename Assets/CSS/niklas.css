@@ -87,9 +87,11 @@ a, a:visited, a:active {
 }
 .trousers ul{
 	list-style-type: none;
+	width: 880px;
+	margin: 0 auto;
 }
 .trousers ul li {
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 	margin-bottom: 20px;
 	border: 1px solid #ddd;
 	height: 198px;
@@ -109,4 +111,11 @@ a, a:visited, a:active {
 .feet {
 	height: 56px;
 	border-top: 1px solid #ddd;
+}
+
+img.sliphoveritem{
+	z-index: 50;
+}
+div.sliphoveritem{
+	z-index: 60;
 }
